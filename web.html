@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+   <!-- Bootstrap core CSS -->
+  
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="store/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="store/css/animate.css">
+
+
+<link rel="stylesheet" href="store/css/owl.carousel.min.css">
+<link rel="stylesheet" href="store/css/owl.theme.default.min.css">
+
+<script>if ( top !== self ){ top.location.replace( self.location.href ); }</script>
+<style>
+
+
+
+
+
+
+
+
+.row 10{
+    margin-left: 15px;
+    margin-right:15px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:indigo;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:indigo;
+
+}
+
+/* Style the topnav links */
+.topnav a{
+    float:left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:white;
+    color: #4169E1;;
+}
+/*properties for image*/
+#Home{
+background-image:url("store/lab.png" );
+
+background-size:cover;
+
+
+  width: 900px;
+  height: 500px;
+  margin-top: 0px;
+  margin-left: 280px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.row h2{
+  text-align: center;
+
+}
+.row p{
+text-align: center;
+}
+#Information{
+  background-color: lightblue;
+ margin-bottom:0px;
+padding-bottom:30px;
+}
+
+.button {
+    background-color:lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:2px 4px;
+    cursor: pointer;
+    margin-left: 120px;
+
+}
+
+
+
+
+#Soial{
+
+margin-top:0;
+
+}
+
+
+background-position:center center;
+background-size:cover;  
+position: relative;
+
+}
+#mycastal {
+  
+margin-top:0;
+background-image:url("store/img/m7.jpg" class="img-fluid rounded-circle img-thumbnail wow slideInRight" data-wow-delay="5s" data-wow-offset="400");
+}
+#animate{
+
+ width: 700px;
+  height: 200px;
+  position: absolute;
+  background-color: black;
+color:white;
+
+}
+#Learn{
+
+
+
+margin-top:0;
+background-image:url("store/img/m7.jpg");
+
+background-size:cover;
+
+
+
+}
+.container
+{ width:100%px;
+  height: 700px;
+background-image:url("store/img/m8.jpg");
+background-size: cover; 
+
+background-position:center center;
+ 
+color: white;
+
+text-align:center;
+ margin-bottom:0px;
+ 
+   
+ margin-top:0px;
+ 
+padding-top:30px;
+}
+
+
+</style>
+</head>
+
+ <body>
+
+
+<div class="slide">
+
+<div class="owl-carousel owl-theme">
+    
+  <a href="#Home"> <img class="owl-lazy" src="store/img/m1.jpg"   width="300" height="200" alt="hh"></a>
+   <a href="#Castal"><img class="owl-lazy" src="store/img/m2.jpg"width="300" height="225" alt="hh"></a>
+     <a href="#Learn"> <img class="owl-lazy" src="store/img/m3.jpg"width="300" height="200" alt="hh"></a>
+       <a href="#Information"><img class="owl-lazy" src="store/img/m4.jpg"width="300" height="200" alt="hh"></a> 
+     <a href="#Soial"><img class="owl-lazy" src="store/img/m5.jpg"width="300" height="200" alt="hh"></a>
+
+
+</div>
+</div>
+<!--navbar-->
+
+<div class="topnav w3-indigo">
+<a href="#Home">Home</a>
+  <a href="#Castal">Castal</a>
+  <a href="#Learn">Learn</a>
+    <a href="#Information">Information</a>
+      <a href="#Soial">Soial</a></div>
+
+             
+<!--icon-->
+<div class="header w3-indigo">
+  <i class="fa fa-cog" style="font-size:24px"></i>
+  <h1>Code for iraq</h1>
+</div>
+
+<!--for image"-->
+
+<div id="Home">
+</div>
+<!--coloumns --->
+<div  class="container">
+<p><button onclick="mycastal()">welcom</button></p>
+ <div id="Castal" class="mycastal">
+
+<div id ="animate">
+  <h2 style="text-align:center">WELCOME TO OUR WEBSITE</h2>
+<p style="text-align:center">  Lorem ipsum <b>dolor sit amet</p>, consectetur 
+<a href="#">adipisicing elit</a>,
+ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<a href="#"> Duis aute irure dolor in reprehenderit in voluptate velit esse</a> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+</div>
+</div>
+
+<div id="Learn">
+
+<button onclick="myFunction()"><i class="far fa-smile-beam fa-3x" style="color:yellow;"></i></button>
+
+<div class="row">
+  <div class="column  WOW bounceInRight">
+    <h2>Html5</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  <a href="https://youtu.be/OU0CBOrPZss">
+        <input type="button" class="button" value="Click here"></a>
+  </div>
+  <div class="column">
+    <h2>Css</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+<a href="https://youtu.be/Iu1T7j2FA4M">
+    <input type="button" class="button" value="Click here"></a>
+  </div>
+  <div class="column">
+    <h2>Bootsrtap</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <a href="https://youtu.be/nEq8prQVtz0">
+        <input type="button" class="button" value="Click here"></a>
+  </div>
+</div>
+<br>
+<hr>
+
+
+<div class="row">
+  <div class="column">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+
+      <input type="button" class="button" value="Click here">
+  </div>
+  <div class="column">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+      <input type="button" class="button" value="Click here">
+  </div>
+  <div class="column">
+    <h2>Column1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+      <input type="button" class="button" value="Click here">
+  </div>
+</div>
+
+<section id="Information">
+   <div class="contact">
+  <br>
+  <br>
+<div class="w3-row w3-large w3-center" style="margin:32px">
+    <div class="w3-third"><iclass="fa fa-map-marker w3-text-black"></i><br> 423 Some adr, Iraq,Baghdad </div>
+    <div class="w3-third"><iclass="fa fa-phone w3-text-black"></i><br> Phone: +00 151515</div>
+    <div class="w3-third"><iclass="fa fa-envelope w3-text-black"></i><br> Email: mail@mail.com</div>
+  </div>
+</div>
+</section>
+
+<div id="Soial">
+<!-- Footer -->
+<footer class="w3-padding-32 w3-indigo w3-center">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div></div></div>
+
+
+</footer>
+
+
+
+
+
+<button type="button" id="btnScroll" class="btn btn-primary" onclick="toHome()">
+<i class="fas fa-cloud-upload-alt fa-2x"></i>
+</button>
+
+
+</div>
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="store/js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="store/js/bootstrap.min.js"></script>
+
+<script src="store/js/jquery.min.js"></script>
+<script src="store/js/owl.carousel.min.js"></script>
+<script src="store/js/wow.min.js">
+        <script src="store/js/anime.min.js">
+</script>
+  <script>      
+  new WOW().init();
+             
+ </script>
+
+
+<script>
+
+
+window.onscroll = function(){
+  
+scrollFunction();
+};
+
+function scrollFunction(){
+  
+if(document.body.scrollTop > 5 || document.documentElement.scrollTop>5){
+    
+document.getElementById("btnScroll").style.display = "block";
+
+  }
+else{
+   
+ document.getElementById("btnScroll").style.display = "none";
+  }
+}
+ 
+
+function toHome(){
+  document.body.scrollTop = 0;
+  
+document.documentElement.scrollTop=0;
+}
+
+</script>
+
+
+  <script>  
+
+
+
+$('.owl-carousel').owlCarousel({
+    items:5,
+    lazyLoad:true,
+    loop:0,
+    margin:10
+
+
+
+});
+
+
+
+  </script>  
+
+<script>
+function mycastal() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 1000) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.center = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+  <script>
+function myFunction() {
+    var myCollection = document.getElementsByTagName("p");
+    var i;
+    for (i = 0; i < myCollection.length; i++) {
+        myCollection[i].style.color = "yellow";
+    }
+}
+</script>
+
+</body>
+</html>
